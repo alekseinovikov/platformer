@@ -28,4 +28,22 @@ func _physics_process(delta):
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
+	update_animation()
 	move_and_slide()
+	
+func update_animation():
+	if velocity.x < 0:
+		anim.flip_h = true
+	elif velocity.x > 0:
+		anim.flip_h = false
+	
+	if velocity.x:
+		anim.play("Run")
+	else:
+		anim.play("Idle")
+		
+	if velocity.y < 0:
+		anim.play("Jump")
+	elif velocity.y > 0:
+		anim.play("Fall")
+		
