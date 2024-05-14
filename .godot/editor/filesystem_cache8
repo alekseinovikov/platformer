@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715619397
+::res://::1715702835
 icon.svg::CompressedTexture2D::1660378088275833462::1715192011::1715192028::1::::<><>::
-world3.tscn::PackedScene::2583678911607349940::1715619479::0::1::::<><>::uid://dqame3eb4mfd1::::res://player/player.tscn<>uid://bc4m3tn6to144::::res://res/Terrain/Terrain (16x16).png<>uid://bj405rwnwx5h::::res://ExitDoor/exit_door.tscn
-world2.tscn::PackedScene::6983424816008434820::1715619469::0::1::::<><>::uid://dqame3eb4mfd1::::res://player/player.tscn<>uid://bc4m3tn6to144::::res://res/Terrain/Terrain (16x16).png<>uid://bj405rwnwx5h::::res://ExitDoor/exit_door.tscn
-world.tscn::PackedScene::2426470933125744077::1715619397::0::1::::<><>::uid://dqame3eb4mfd1::::res://player/player.tscn<>uid://bc4m3tn6to144::::res://res/Terrain/Terrain (16x16).png<>uid://bj405rwnwx5h::::res://ExitDoor/exit_door.tscn
-::res://ExitDoor/::1715619418
-exit_door.tscn::PackedScene::90575284042443615::1715619418::0::1::::<><>::uid://1ao02tnwhdk8::::res://res/ExitDoor/closedDoor.png<>res://ExitDoor/exit_door.gd<>uid://mpl28b5tc60j::::res://res/ExitDoor/OpenDoor.png
-exit_door.gd::GDScript::-1::1715619361::0::1::::<>Node2D<>::
+world2.tscn::PackedScene::6983424816008434820::1715620079::0::1::::<><>::uid://dqame3eb4mfd1::::res://player/player.tscn<>uid://bc4m3tn6to144::::res://res/Terrain/Terrain (16x16).png<>uid://bj405rwnwx5h::::res://ExitDoor/exit_door.tscn
+world3.tscn::PackedScene::2583678911607349940::1715620080::0::1::::<><>::uid://dqame3eb4mfd1::::res://player/player.tscn<>uid://bc4m3tn6to144::::res://res/Terrain/Terrain (16x16).png<>uid://bj405rwnwx5h::::res://ExitDoor/exit_door.tscn
+world.tscn::PackedScene::2426470933125744077::1715620078::0::1::::<><>::uid://dqame3eb4mfd1::::res://player/player.tscn<>uid://bc4m3tn6to144::::res://res/Terrain/Terrain (16x16).png<>uid://bj405rwnwx5h::::res://ExitDoor/exit_door.tscn
+::res://ExitDoor/::1715619885
+exit_door.gd::GDScript::-1::1715619885::0::1::::<>Node2D<>::
+exit_door.tscn::PackedScene::90575284042443615::1715619885::0::1::::<><>::uid://1ao02tnwhdk8::::res://res/ExitDoor/closedDoor.png<>res://ExitDoor/exit_door.gd<>uid://mpl28b5tc60j::::res://res/ExitDoor/OpenDoor.png
 ::res://player/::1715265207
 player.gd::GDScript::-1::1715264117::0::1::::<>CharacterBody2D<>::
 player.tscn::PackedScene::8283020773294326884::1715265207::0::1::::<><>::res://player/player.gd<>uid://b66yjbi7baw7o::::res://res/Main Characters/Pink Man/Double Jump (32x32).png<>uid://bhlk21xip5uwc::::res://res/Main Characters/Pink Man/Idle (32x32).png<>uid://53tlgwffkywm::::res://res/Main Characters/Pink Man/Jump (32x32).png<>uid://cto5n3xj0pamp::::res://res/Main Characters/Pink Man/Fall (32x32).png<>uid://f4ro5466vbtw::::res://res/Main Characters/Pink Man/Hit (32x32).png<>uid://bfm1wbgxiw57m::::res://res/Main Characters/Pink Man/Run (32x32).png<>uid://2cgf253cs2rb::::res://res/Main Characters/Pink Man/Wall Jump (32x32).png

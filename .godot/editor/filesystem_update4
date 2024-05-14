@@ -1,5 +1,7 @@
+res://main_menu.tscn
 res://world.tscn
 res://world2.tscn
-res://ExitDoor/exit_door.tscn
-res://ExitDoor/exit_door.gd
 res://world3.tscn
+res://main_menu.gd
+res://in_game_menu.tscn
+res://in_game_menu.gd

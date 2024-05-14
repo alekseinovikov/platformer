@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://bc2s2xhcx10aq"]
+[gd_scene load_steps=7 format=3 uid="uid://bc2s2xhcx10aq"]
 
 [ext_resource type="PackedScene" uid="uid://dqame3eb4mfd1" path="res://player/player.tscn" id="1_cimo1"]
 [ext_resource type="Texture2D" uid="uid://bc4m3tn6to144" path="res://res/Terrain/Terrain (16x16).png" id="2_ye1f0"]
 [ext_resource type="PackedScene" uid="uid://bj405rwnwx5h" path="res://ExitDoor/exit_door.tscn" id="3_fbfcu"]
+[ext_resource type="PackedScene" uid="uid://bobbx12s6fcaw" path="res://in_game_menu.tscn" id="4_20uwj"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mq1bk"]
 texture = ExtResource("2_ye1f0")
@@ -605,3 +606,5 @@ metadata/_edit_lock_ = true
 position = Vector2(15, 347)
 collision_mask = 18
 metadata/_edit_lock_ = true
+
+[node name="InGameMenu" parent="." instance=ExtResource("4_20uwj")]

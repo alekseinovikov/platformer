@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://bobbx12s6fcaw"]
+
+[ext_resource type="Script" path="res://in_game_menu.gd" id="1_phb2e"]
+
+[node name="InGameMenu" type="CanvasLayer"]
+script = ExtResource("1_phb2e")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -53.0
+offset_bottom = 31.0
+grow_horizontal = 0
+size_flags_horizontal = 4
+size_flags_vertical = 0
+
+[node name="Button" type="Button" parent="MarginContainer"]
+layout_mode = 2
+text = "Menu"
+
+[connection signal="pressed" from="MarginContainer/Button" to="." method="_on_button_pressed"]
